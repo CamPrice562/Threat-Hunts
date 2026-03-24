@@ -1,12 +1,4 @@
-<p align="center">
-  <img
-    src="https://github.com/user-attachments/assets/337bb215-8833-4653-b570-93c443bd9c11"
-    width="1200"
-    alt="Threat Hunt Cover Image"
-  />
-</p>
-
-# 🛡️ Threat Hunt Report – The Buyer: Akira Ransomware Incident Response
+# 🛡️ Threat Hunt Report: The Buyer
 
 ---
 
@@ -36,7 +28,6 @@ On January 27, 2026, an Akira ransomware affiliate attacked Ashford Sterling Rec
 - **Investigation Date:** 2026-03-15 to 2026-03-16
 - **Hosts Compromised:** as-pc2, as-srv
 - **Compromised User:** david.mitchell
-- **Questions Solved:** 40/40
 
 ---
 
@@ -641,7 +632,6 @@ All 40 investigation questions were answered. The complete attack chain was reco
 
 ## 📎 Analyst Notes
 
-- This was the analyst's first completed threat hunt. All 40 questions across 12 sections were solved independently.
 - The investigation was conducted 47 days post-incident. MDE had no data. All findings came from Azure Log Analytics.
 - The hardest question was Q14 (named pipe access). The breakthrough came from shifting the search angle from processes connecting to lsass to pipes named lsass.
 - Q6 (cdn.cloud-endpoint.net) only appeared in DeviceNetworkEvents on AS-SRV. A broad cross-table search across all devices was required to surface it.
