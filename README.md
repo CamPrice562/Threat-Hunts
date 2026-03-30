@@ -13,4 +13,5 @@ A ransomware affiliate returned to the environment of Ashford Sterling Recruitme
 ## 📄 Full Investigation Report
 
 https://github.com/CamPrice562/Threat-Hunts/blob/main/The%20Buyer.md
+
 Includes the full scenario, every answer with the KQL query that found it, key lessons, MITRE ATT&CK mapping, and insights learned along the way.
